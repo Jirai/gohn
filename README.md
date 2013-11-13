@@ -33,3 +33,5 @@ $ git ci -m 'add test'
 ```
 $ perl -MCocoa::EventLoop -MCocoa::NetworkChange -e 'on_network_change(sub{ system(qw|curl 127.0.0.1:5555/play/miyazaki-aoi-return-home|); }, sub{}); Cocoa::EventLoop->run;'
 ```
+
+test
